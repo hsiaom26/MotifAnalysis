@@ -1,0 +1,597 @@
+3228 malware.exe
+#222100000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#222890000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#222580000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#223400000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#223420000
+LoadLibrary
+lpFileName=imm32.dll
+Return=SUCCESS
+#224080000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#224090000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#237510000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=SUCCESS
+#237730000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=SUCCESS
+#237760000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=SUCCESS
+#237900000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#237920000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#237960000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#237990000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#238060000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#238240000
+LoadLibrary
+lpFileName=ole32.dll
+Return=SUCCESS
+#238250000
+LoadLibrary
+lpFileName=oleaut32.dll
+Return=SUCCESS
+#238280000
+LoadLibrary
+lpFileName=user32.dll
+Return=SUCCESS
+#238640000
+LoadLibrary
+lpFileName=user32.dll
+Return=SUCCESS
+#238660000
+LoadLibrary
+lpFileName=wsock32.dll
+Return=SUCCESS
+#239460000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager\Compositing
+Return=2
+#239480000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\LameButtonText
+Return=2
+#239490000
+LoadLibrary
+lpFileName=uxtheme.dll
+Return=SUCCESS
+#241280000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\IMM\Ime File
+Return=0
+#241300000
+LoadLibrary
+lpFileName=version.dll
+Return=SUCCESS
+#241420000
+CreateFile
+hName=C:\WINDOWS\system32\msctfime.ime
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#241500000
+CreateFile
+hName=C:\WINDOWS\system32\msctfime.ime
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#242090000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\ole32.dll
+Return=SUCCESS
+#241660000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\msctfime.ime
+Return=SUCCESS
+#242230000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\SOFTWARE\Microsoft\CTF\Disable Thread Input Manager
+Return=2
+#242240000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\CTF\SystemShared\CUAS
+Return=0
+type=REG_DWORD
+data=0
+#242320000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\msctfime.ime
+Return=SUCCESS
+#243360000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup
+Return=0
+#243370000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\workfile
+Return=2
+#243590000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243590000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243630000
+CreateFile
+hName=C:\RECYCLER\PEOOYX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#243630000
+CreateFile
+hName=C:\RECYCLER\PEOOYX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#243680000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#243680000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#243740000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup
+Return=0
+#243740000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\workfile
+type=REG_SZ
+data=QzpcUkVDWUNMRVJcUEVPT1lYLkVYRQ==
+Return=0
+#243960000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243960000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243990000
+CreateFile
+hName=C:\Documents and Settings\SGYC.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#243990000
+CreateFile
+hName=C:\Documents and Settings\SGYC.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#244040000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#244040000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#244060000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\MaxRpcSize
+Return=2
+#244120000
+LoadLibrary
+lpFileName=rpcrt4.dll
+Return=SUCCESS
+#244980000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#244980000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245010000
+CreateFile
+hName=C:\RECYCLER\JWXHLK.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#245010000
+CreateFile
+hName=C:\RECYCLER\JWXHLK.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#245060000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245060000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245070000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\txtfile\shell\open\command
+Return=0
+#245100000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\txtfile\shell\open\command\
+type=REG_SZ
+data=C:\RECYCLER\JWXHLK.EXE %1
+Return=0
+#245320000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245320000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245350000
+CreateFile
+hName=C:\Program Files\YAABJ.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#245350000
+CreateFile
+hName=C:\Program Files\YAABJ.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#245400000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245400000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245410000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\QQQ.file\shell\open\command
+Return=0
+#245480000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\QQQ.file\shell\open\command\
+type=REG_SZ
+data=C:\Program Files\YAABJ.EXE %1
+Return=0
+#245710000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245710000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245740000
+CreateFile
+hName=C:\RECYCLER\JONZJG.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#245740000
+CreateFile
+hName=C:\RECYCLER\JONZJG.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#245780000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245780000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#245790000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\QQQfile\shell\open\command
+Return=0
+#245840000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\QQQfile\shell\open\command\
+type=REG_SZ
+data=C:\RECYCLER\JONZJG.EXE "%1"
+Return=0
+#246080000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246080000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246110000
+CreateFile
+hName=C:\Program Files\MQXMZ.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#246110000
+CreateFile
+hName=C:\Program Files\MQXMZ.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#246160000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246160000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246170000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\QQQfile\shell\open\command
+Return=0
+#246180000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\QQQfile\shell\open\command\
+type=REG_SZ
+data=C:\Program Files\MQXMZ.EXE "%1"
+Return=0
+#246410000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246410000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246430000
+CreateFile
+hName=C:\System Volume Information\QRZHFYA.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=FAILURE
+#246430000
+CreateFile
+hName=C:\System Volume Information\QRZHFYA.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=FAILURE
+#246470000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246470000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246480000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\inffile\shell\open\command
+Return=0
+#246500000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\inffile\shell\open\command\
+type=REG_SZ
+data=C:\System Volume Information\QRZHFYA.EXE %1
+Return=0
+#246730000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246730000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246760000
+CreateFile
+hName=C:\RECYCLER\HOZCTV.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#246750000
+CreateFile
+hName=C:\RECYCLER\HOZCTV.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#246810000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246810000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#246830000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\QQQfile\shell\open\command
+Return=0
+#246840000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\QQQfile\shell\open\command\
+type=REG_SZ
+data=C:\RECYCLER\HOZCTV.EXE "%1" %*
+Return=0
+#247060000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#247060000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#247090000
+CreateFile
+hName=C:\Documents and Settings\WSDW.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#247090000
+CreateFile
+hName=C:\Documents and Settings\WSDW.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#247140000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#247140000
+CreateFile
+hName=c:\filedebug
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#247160000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+Return=0
+#247170000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\PKXS.EXE
+type=REG_SZ
+data=C:\Documents and Settings\WSDW.EXE
+Return=0
+#247210000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup
+Return=0
+#247210000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\workfile
+Return=0
+type=REG_SZ
+data=
+#247220000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\workfile
+Return=0
+type=REG_SZ
+data=QzpcUkVDWUNMRVJcUEVPT1lYLkVYRQ==
+#249170000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#249200000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#247310000
+CreateProcessInternal
+lpCommandLine=C:\RECYCLER\PEOOYX.EXE
+Return=SUCCESS
+dwProcessId=3252
+dwThreadId=3256
+#247310000
+CreateProcessInternal
+lpCommandLine=C:\RECYCLER\PEOOYX.EXE
+Return=SUCCESS
+dwProcessId=3252
+dwThreadId=3256
+#247310000
+WinExec
+lpCmdLine=C:\RECYCLER\PEOOYX.EXE
+Return=SUCCESS
+#272660000
+ExitProcess

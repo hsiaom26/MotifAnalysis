@@ -1,0 +1,29 @@
+3184 ns3.tmp
+#239800000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#240550000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#240250000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#242110000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#242160000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#240680000
+CreateProcessInternal
+lpCommandLine="C:\DOCUME~1\ants\LOCALS~1\Temp\nsk2.tmp\lzma.exe" "d" "C:\DOCUME~1\ants\LOCALS~1\Temp\nsk2.tmp\bi.lza" "C:\DOCUME~1\ants\LOCALS
+Return=SUCCESS
+dwProcessId=3196
+dwThreadId=3200
+#307260000
+ExitProcess

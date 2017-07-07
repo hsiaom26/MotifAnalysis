@@ -1,0 +1,47 @@
+2900 malware.exe
+#253090000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#255890000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#254820000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#256940000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemSetupInProgress
+Return=0
+type=REG_DWORD
+data=0
+#259150000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#259420000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#259460000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\EnableBalloonTips
+Return=2
+#259470000
+RegEnumValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\LanguagePack\SURR
+type=REG_DWORD
+data=2
+Return=0
+#257380000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#259930000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS

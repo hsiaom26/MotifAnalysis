@@ -1,0 +1,96 @@
+3260 malware.exe
+#234380000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#235190000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#234880000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#235700000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#235710000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#235930000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemSetupInProgress
+Return=0
+type=REG_DWORD
+data=0
+#237180000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#237460000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#237480000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\EnableBalloonTips
+Return=2
+#237480000
+RegEnumValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\LanguagePack\SURR
+type=REG_DWORD
+data=2
+Return=0
+#236270000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#238310000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#238320000
+LoadLibrary
+lpFileName=imm32.dll
+Return=SUCCESS
+#237690000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#238980000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#238980000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\president.exe
+Return=SUCCESS
+#239050000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\MaxRpcSize
+Return=2
+#239110000
+LoadLibrary
+lpFileName=rpcrt4.dll
+Return=SUCCESS
+#243670000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\ServiceCurrent
+Return=0
+type=REG_DWORD
+data=9
+#258390000
+CreateFile
+hName=\\.\pipe\net\NtControlPipe9
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=FAILURE
+#258490000
+ExitProcess

@@ -1,0 +1,135 @@
+3008 AdobeAir.exe
+#417030000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#417790000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#417490000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#418240000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#418250000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#419790000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager\Compositing
+Return=2
+#419830000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\LameButtonText
+Return=2
+#419920000
+LoadLibrary
+lpFileName=uxtheme.dll
+Return=SUCCESS
+#422710000
+LoadLibrary
+lpFileName=OLEAUT32.DLL
+Return=SUCCESS
+#423840000
+LoadLibrary
+lpFileName=SXS.DLL
+Return=SUCCESS
+#424820000
+LoadLibrary
+lpFileName=oleaut32.dll
+Return=SUCCESS
+#425060000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\IMM\Ime File
+Return=0
+#425110000
+LoadLibrary
+lpFileName=version.dll
+Return=SUCCESS
+#425360000
+CreateFile
+hName=C:\WINDOWS\system32\msctfime.ime
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#425500000
+CreateFile
+hName=C:\WINDOWS\system32\msctfime.ime
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#426730000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\ole32.dll
+Return=SUCCESS
+#425880000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\msctfime.ime
+Return=SUCCESS
+#426990000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\SOFTWARE\Microsoft\CTF\Disable Thread Input Manager
+Return=2
+#427010000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\CTF\SystemShared\CUAS
+Return=0
+type=REG_DWORD
+data=0
+#427140000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\msctfime.ime
+Return=SUCCESS
+#431480000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\VB6ES.DLL
+Return=FAILURE
+#433030000
+CreateFile
+hName=C:\Documents and Settings\ants\Application Data\AdobeAir.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_ALWAYS
+Return=FAILURE
+#433030000
+CreateFile
+hName=C:\Documents and Settings\ants\Application Data\AdobeAir.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_ALWAYS
+Return=FAILURE
+#433070000
+CreateFile
+hName=C:\Documents and Settings\ants\Application Data\AdobeAir.EXE
+desiredAccess=GENERIC_WRITE 
+creationDisposition=OPEN_ALWAYS
+Return=FAILURE
+#433040000
+CreateFile
+hName=C:\Documents and Settings\ants\Application Data\AdobeAir.EXE
+desiredAccess=GENERIC_WRITE 
+creationDisposition=OPEN_ALWAYS
+Return=FAILURE
+#433080000
+CreateFile
+hName=C:\Documents and Settings\ants\Application Data\AdobeAir.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_ALWAYS
+Return=SUCCESS
+#433080000
+CreateFile
+hName=C:\Documents and Settings\ants\Application Data\AdobeAir.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_ALWAYS
+Return=SUCCESS
+#442030000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\kernel32.dll
+Return=SUCCESS
+#444030000
+LoadLibrary
+lpFileName=kernel32
+Return=SUCCESS

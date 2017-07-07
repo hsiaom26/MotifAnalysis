@@ -1,0 +1,57 @@
+2944 ns4.tmp
+#298330000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#299120000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#298790000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#300190000
+LoadLibrary
+lpFileName=VERSION.dll
+Return=SUCCESS
+#300340000
+CreateFile
+hName=C:\WINDOWS\System32\Wbem\wmic.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#300420000
+CreateFile
+hName=C:\WINDOWS\System32\Wbem\wmic.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#301850000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#301890000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#299220000
+CreateProcessInternal
+lpCommandLine=WMIC bios Get SerialNumber /FORMAT:textvaluelist.xsl
+Return=SUCCESS
+dwProcessId=2952
+dwThreadId=2956
+#299220000
+CreateProcessInternal
+lpCommandLine=WMIC bios Get SerialNumber /FORMAT:textvaluelist.xsl
+Return=SUCCESS
+dwProcessId=2952
+dwThreadId=2956
+#299220000
+CreateProcess
+lpCommandLine=WMIC bios Get SerialNumber /FORMAT:textvaluelist.xsl
+Return=SUCCESS
+dwProcessId=2952
+dwThreadId=2956
+#339960000
+ExitProcess

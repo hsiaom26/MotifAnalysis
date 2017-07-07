@@ -1,0 +1,21 @@
+3408 roipi.exe
+#480830000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#482900000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#481980000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#484450000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#484460000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2

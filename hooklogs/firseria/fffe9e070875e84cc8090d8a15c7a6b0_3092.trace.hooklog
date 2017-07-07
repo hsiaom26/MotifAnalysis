@@ -1,0 +1,31 @@
+3092 malware.exe
+#195380000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#196270000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#195970000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#431150000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Version
+Return=0
+type=REG_SZ
+data=6.0.2900.5512
+#431350000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#431510000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS

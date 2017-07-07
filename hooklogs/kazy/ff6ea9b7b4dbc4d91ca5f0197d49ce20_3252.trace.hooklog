@@ -1,0 +1,285 @@
+3252 malware.exe
+#234250000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#236380000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#236020000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#236920000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemSetupInProgress
+Return=0
+type=REG_DWORD
+data=0
+#238000000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#238270000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#238280000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\EnableBalloonTips
+Return=2
+#238290000
+RegEnumValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\LanguagePack\SURR
+type=REG_DWORD
+data=2
+Return=0
+#237240000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#238500000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#238920000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#239180000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#239600000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#239610000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#239950000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#240760000
+LoadLibrary
+lpFileName=kernel32.dll
+Return=SUCCESS
+#241160000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#242910000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing
+Return=0
+#242920000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg
+Return=0
+#242920000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg\LogSessionName
+type=REG_EXPAND_SZ
+data=s
+Return=0
+#242920000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg\Active
+type=REG_DWORD
+data=1
+Return=0
+#242920000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg\ControlFlags
+type=REG_DWORD
+data=1
+Return=0
+#242920000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg\traceIdentifier
+Return=0
+#242920000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg\traceIdentifier\Guid
+type=REG_SZ
+data=5f31090b-d990-4e91-b16d-46121d0255aa
+Return=0
+#242920000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappcfg\traceIdentifier\BitNames
+type=REG_SZ
+data= Error Unusual Info Debug
+Return=0
+#242970000
+CreateFile
+hName=\\.\WMIDataDevice
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#242990000
+CreateFile
+hName=\\.\WMIDataDevice
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243000000
+CreateThread
+dwThreadId=1242640
+Return=SUCCESS
+#243060000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing
+Return=0
+#243070000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy
+Return=0
+#243070000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy\LogSessionName
+type=REG_EXPAND_SZ
+data=s
+Return=0
+#243070000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy\Active
+type=REG_DWORD
+data=1
+Return=0
+#243070000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy\ControlFlags
+type=REG_DWORD
+data=1
+Return=0
+#243070000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy\traceIdentifier
+Return=0
+#243070000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy\traceIdentifier\Guid
+type=REG_SZ
+data=5f31090b-d990-4e91-b16d-46121d0255aa
+Return=0
+#243080000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\eappprxy\traceIdentifier\BitNames
+type=REG_SZ
+data= Error Unusual Info Debug
+Return=0
+#243170000
+CreateFile
+hName=\\.\Ip
+desiredAccess=GENERIC_EXECUTE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243170000
+CreateFile
+hName=\\.\Ip
+desiredAccess=GENERIC_EXECUTE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#243710000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#244050000
+LoadLibrary
+lpFileName=svcs.dll
+Return=FAILURE
+#245730000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLE\MinimumFreeMemPercentageToCreateProcess
+Return=2
+#245730000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OLE\MinimumFreeMemPercentageToCreateObject
+Return=2
+#245840000
+LoadLibrary
+lpFileName=CLUSAPI.DLL
+Return=SUCCESS
+#246940000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\winlogon\UserEnvDebugLevel
+Return=2
+#246950000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\winlogon\ChkAccDebugLevel
+Return=2
+#246970000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\ProductOptions\ProductType
+Return=0
+type=REG_SZ
+data=WinNT
+#247090000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\Personal
+Return=0
+type=REG_EXPAND_SZ
+data=%
+#247090000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\Local Settings
+Return=0
+type=REG_EXPAND_SZ
+data=%
+#247150000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\winlogon\RsopDebugLevel
+Return=2
+#247160000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\winlogon\UserEnvDebugLevel
+Return=2
+#247160000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\winlogon\RsopLogging
+Return=2
+#247180000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\winlogon\UserEnvDebugLevel
+Return=2
+#246360000
+LoadLibrary
+lpFileName=RESUTILS.DLL
+Return=SUCCESS
+#247210000
+LoadLibrary
+lpFileName=NTDLL.DLL
+Return=SUCCESS
+#247260000
+LoadLibrary
+lpFileName=kernel32
+Return=SUCCESS
+#247520000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Com3\SecurityCacheLimit
+Return=2
+#247530000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\COM3\DisableAppDomainTracking
+Return=2
+#247590000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EventSystem\TraceEventSpew
+Return=2
+#244190000
+LoadLibrary
+lpFileName=comsvcs.dll
+Return=SUCCESS
+#321210000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS

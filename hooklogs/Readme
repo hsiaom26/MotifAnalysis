@@ -8,3 +8,12 @@ Example: 351m_484h.zip
 國網中心, 2017/2/14, 10000 檔案 -> 6884 Win32 EXE -> (還在跑)
 
 Some specific families are stored in the directories.
+
+Good samples:
+morstar: used by Mike, 31 processes, 3 main groups, 1 outliers.
+
+Samples need to be clean:
+firseria: original name 00_hkTest_firseria2014, 146 processes.
+somoto: original name 00_hkTest_somoto, 76 processes.
+kazy: original name 00_hkTest_kazy2014, 121 processes.
+zusy: original name 00_hkTest_zusy2014, 66 processes.

@@ -1,0 +1,57 @@
+3208 malware.exe
+#238820000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#239670000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#239360000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#240140000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemSetupInProgress
+Return=0
+type=REG_DWORD
+data=0
+#241190000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#241470000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#241480000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\EnableBalloonTips
+Return=2
+#241490000
+RegEnumValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\LanguagePack\SURR
+type=REG_DWORD
+data=2
+Return=0
+#240450000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#242530000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#242540000
+LoadLibrary
+lpFileName=imm32.dll
+Return=SUCCESS
+#241720000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#243230000
+ExitProcess

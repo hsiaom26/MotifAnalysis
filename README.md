@@ -1,7 +1,6 @@
 # MotifAnalysis
 
-1.
-The process of constructing an hierarchical clustering tree is:
+1. The process of constructing an hierarchical clustering tree is:
 
 * Hooklog3 # construct the basic data structure of a hooklog (from a file to a python list)
 * distanceMatrixJaccard # calculate the distance matrix of n hooklogs by using Jaccard distance method

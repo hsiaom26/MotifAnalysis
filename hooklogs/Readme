@@ -35,13 +35,14 @@ Good samples:
 morstar_old: used by Mike, 31 processes, 3 main groups, 3 outliers.
 
 allaple_woj_g_98: 34 processes, 31 hashes, 1 group. 2016: 30, 2017: 1.
-elkern_woj_g_127:
-firseria_woj_g_144+: 
-kazy_woj_g_290: 
-loadmoney_woj_g_184: 
-loadmoney_woj_g_189:
+bettersurf_woj_g_137+: 64 processes, 28 hashes, 3 groups.
+elkern_woj_g_127: 49p/49h, 1 group.
+firseria_woj_g_144+: 68p/59h, 4 groups.
+kazy_woj_g_290: 19p/19h, 1 group.
+loadmoney_woj_g_184: 15p/8h, 1 group.
+loadmoney_woj_g_189: 55p/55h, 1 group.
+lydra_woj_g_44: 14p/14h, 1 group.
+madang_woj_g_137: 24p/23h, 1 group.
 mira_woj_g_107: 33 processes, 33 hashes, 1 group. All 2016 samples.
 somoto_woj: 59 processes, 23 hashes, 3 groups, 2 outliers. 2016:8, 2015:1, 2014:8, 2013:1.
 sytro_woj_g_166: 73 processes, 73 hashes, 1 groups. 2014:21, 2015:39.
-
-

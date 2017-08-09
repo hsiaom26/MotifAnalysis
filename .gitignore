@@ -103,3 +103,5 @@ ENV/
 # extra
 .ipynb_checkpoints
 .DS_Store
+output/
+pickle/
